@@ -171,6 +171,7 @@
                             "description": "Zip code",
                             "type": [
                                 "string",
+                                "number",
                                 "null"
                             ]
                         },

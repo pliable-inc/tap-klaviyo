@@ -77,11 +77,23 @@
                             ]
                         },
                         "category": {
-                            "description": "The category of the integration",
-                            "type": [
-                                "string",
-                                "null"
-                            ]
+                            "properties": {
+                                "id": {
+                                    "description": "Category Id",
+                                    "type": [
+                                        "string",
+                                        "number",
+                                        "null"
+                                    ]
+                                },
+                                "category": {
+                                    "description": "The category of the integration",
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            }
                         }
                     },
                     "type": [
