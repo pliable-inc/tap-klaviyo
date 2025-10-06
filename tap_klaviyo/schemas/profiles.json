@@ -212,6 +212,7 @@
                     "additionalProperties": false,
                     "type": [
                         "object",
+                        "string",
                         "null"
                     ]
                 },
